@@ -1,0 +1,6 @@
+- build a couple quick static sites with html and basic css.
+- build a site with a little js
+- watch the first third of jonas's react course.
+- build a couple react projects
+- learn a little nodejs and sql
+- solve a real world problem
