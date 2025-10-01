@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <styles>
-        <!-- classes and ids -->
-    </styles>
-</head>
-<body>
-    
-</body>
+    <style>
+      <!-- classes and ids -- > #blueid {
+        color: blue;
+      }
+      .genericclass {
+        color: red;
+      }
+      #iwantthiscentered {
+        text-align: center;
+      }
+      .youcannamethemanythingaslongastheymatch {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="blueid">Peter but blue</h1>
+    <h1 class="genericclass">Peter but red</h1>
+    <h1 class="genericclass">Peter but also red</h1>
+    <p class="genericclass">
+      im going to say blue but the class will make it red
+    </p>
+    <p id="iwantthiscentered">some text here</p>
+    <p class="youcannamethemanythingaslongastheymatch">some text here</p>
+  </body>
 </html>
