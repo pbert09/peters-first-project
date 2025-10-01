@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <styles>
-        <!-- buttons and inputs -->
-    </styles>
-</head>
-<body>
-    <script></script>
-</body>
+    <style>
+      #calvinsButton {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is a button element that has no styling and does nothing</p>
+    <button>Click me</button>
+    <p>This is a button element that has styling and does something</p>
+    <button id="calvinsButton">Click me</button>
+    <script>
+      const button = document.querySelector("#calvinsButton");
+      button.addEventListener("click", () => {
+        alert("Button clicked");
+      });
+    </script>
+  </body>
 </html>
